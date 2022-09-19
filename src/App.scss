@@ -2,6 +2,7 @@
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box !important;
+
 }
 .container {
     width: auto !important;
@@ -20,13 +21,13 @@
     flex-direction: column;
 }
 .align-center {
-    align-items: center;
+    align-items: center !important;
 }
 .space-Evenly {
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
 }
 .betWeen {
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 //
