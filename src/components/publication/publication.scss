@@ -1,35 +1,56 @@
 .publication-bloc {
     width: 100%;
-    height: 50vh;
 
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-color: beige;
 }
-
 .publication-header {
     height: 5vh;
     padding: 0px 8px 0px 8px !important;
 }
-
 .publication-creator {
     width: auto;
     height: 100%;
 }
-
 .creator-name {
     width: auto;
-    margin-left: 5px !important;
+    margin-left: 8px !important;
 }
-
 .publication-params {
     width: auto;
 }
-
 .publication-content {
     width: 100%;
-    height: 60% !important;
-    
+    height: 40vh !important;
+
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+.publication-react {
+    padding: 4px 6px 4px 6px !important;
+    border-bottom: 1px solid black;
+}
+.publication-icons {
+    margin-right: 10px !important;
+}
+.publications-count {
+    padding: 2px 8px 2px 8px !important;
+    border-bottom: 1px solid black;
+}
+.count-sort {
+    margin-left: 8px !important;
+}
+.publication-description {
+    padding: 2px 8px 2px 8px !important;
+    border-bottom: 1px solid black;
+}
+.description {
+    margin-left: 8px !important;
+}
+.publication-commentaires {
+    padding: 5px 8px 5px 8px !important;
+}
+.commentaires {
+    margin-left: 8px !important;
 }

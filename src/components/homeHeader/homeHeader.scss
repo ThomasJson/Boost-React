@@ -6,3 +6,14 @@
 
     background-color: #B8D4D1;
 }
+.top-nav-items.container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px !important;
+}
