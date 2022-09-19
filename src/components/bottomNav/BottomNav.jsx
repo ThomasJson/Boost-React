@@ -4,28 +4,29 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { RiHome4Line, RiSearchLine, RiUser3Line } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 const BottomNav = () => {
   return (
     <Navbar fixed="bottom">
       <Container fluid>
-        <Nav defaultActiveKey="/home" as="ul" id="bottom-nav-items">
+        <Nav as="ul" id="bottom-nav-items">
           <Nav.Item as="li">
-            <Nav.Link href="/home">
+            <NavLink to="/">
               <RiHome4Line />
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
           <Nav.Item as="li">
-            <Nav.Link eventKey="link-1">
+            <NavLink to="/search">
               <RiSearchLine />
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
           <Nav.Item as="li">
-            <Nav.Link eventKey="link-2">
+            <NavLink to="/profile">
               <Container className="profile-icon">
                 <RiUser3Line/>
               </Container>
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
         </Nav>
       </Container>

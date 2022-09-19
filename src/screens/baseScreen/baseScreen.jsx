@@ -1,11 +1,11 @@
 import React from "react";
 import BottomNav from "../../components/bottomNav/BottomNav";
-import HomeScreen from "../homeScreen/HomeScreen";
+import {Outlet} from 'react-router-dom';
 
 const BaseScreen = () => {
   return (
     <>
-      <HomeScreen />
+      <Outlet />
       <BottomNav />
     </>
   );
