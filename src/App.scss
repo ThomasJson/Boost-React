@@ -1,4 +1,47 @@
 * {
     margin: 0 !important;
     padding: 0 !important;
+    box-sizing: border-box;
+}
+
+svg {
+    font-size: 1.5em;
+}
+
+//
+// GLOBAL CLASSES
+//
+
+.fLex {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-Evenly {
+    justify-content: space-evenly;
+}
+
+.betWeen {
+    justify-content: space-between;
+}
+
+//
+// GENERAL FONTS
+// 
+
+.top-nav-items.container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px !important;
 }
