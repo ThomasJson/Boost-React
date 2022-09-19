@@ -9,6 +9,7 @@ const Publication = () => {
   return (
     <>
       <Container fluid className="publication-bloc coL">
+        {/* HEADER */}
         <Container
           fluid
           className="publication-header rOw betWeen align-center"
@@ -21,25 +22,44 @@ const Publication = () => {
               Profile Name
             </Container>
           </Container>
-
           <Container fluid className="publication-params">
             <Container fluid>
               <AiOutlineMenu />
             </Container>
           </Container>
         </Container>
+        {/* CONTENT */}
         <Container fluid className="publication-content"></Container>
+        {/* REACT */}
         <Container fluid className="publication-react rOw">
-          <Container>
+          <Container className="publication-icons">
             <BiHeart />
           </Container>
-          <Container>
+          <Container className="publication-icons">
             <BiMessageRounded />
           </Container>
-          <Container>
+          <Container className="publication-icons">
             <BiPaperPlane />
           </Container>
-
+        </Container>
+        {/* COUNT */}
+        <Container fluid className="publications-count rOw">
+          <Container>Nb</Container>
+          <Container className="count-sort">Likes / Vues</Container>
+        </Container>
+        {/* POST DESCRIPTION */}
+        <Container className="publication-description rOw">
+          <Container>Profile Name</Container>
+          <Container className="description">blablabla ...</Container>
+        </Container>
+        {/* COMMENTAIRES */}
+        <Container className="publication-commentaires rOw align-center">
+          <Container fluid className="profile-icon w-auto">
+            <RiUser3Line />
+          </Container>
+          <Container className="commentaires">
+            Ajouter un commentaire . . .
+          </Container>
         </Container>
       </Container>
     </>
