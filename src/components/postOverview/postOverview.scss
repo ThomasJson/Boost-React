@@ -1,0 +1,16 @@
+.postOverview-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F5B257;
+}
+.publiOverview {
+    width: 130px !important;
+    height: 130px;
+
+    // TODO Outlined
+    // margin: 3px !important;
+    // outline: 1px solid black !important;
+
+}
