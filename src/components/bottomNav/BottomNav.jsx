@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { RiHome4Line, RiSearchLine, RiUser3Line } from "react-icons/ri";
-// import { Routes, Route } from "react-router-dom";
 
 const BottomNav = () => {
   return (
@@ -23,7 +22,9 @@ const BottomNav = () => {
           </Nav.Item>
           <Nav.Item as="li">
             <Nav.Link eventKey="link-2">
-              <RiUser3Line />
+              <Container className="profile-icon">
+                <RiUser3Line/>
+              </Container>
             </Nav.Link>
           </Nav.Item>
         </Nav>

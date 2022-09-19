@@ -1,14 +1,18 @@
-import React from 'react';
-import ContactStories from '../../components/contactStories/ContactStories';
-import HomeHeader from '../../components/homeHeader/HomeHeader';
+import React from "react";
+import ContactStories from "../../components/contactStories/ContactStories";
+import HomeHeader from "../../components/homeHeader/HomeHeader";
+import Publication from "../../components/publication/Publication";
 
 const HomeScreen = () => {
-    return (
-        <div>
-            <HomeHeader />
-            <ContactStories />
-        </div>
-    );
+  return (
+    <>
+      <HomeHeader />
+      <main>
+        <ContactStories />
+        <Publication />
+      </main>
+    </>
+  );
 };
 
 export default HomeScreen;

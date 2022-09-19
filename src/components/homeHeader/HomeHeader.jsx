@@ -6,8 +6,8 @@ import { BsPlusSquare } from "react-icons/bs";
 
 const HomeHeader = () => {
   return (
-    <div>
-      <Container fluid id="header-home" className="fLex betWeen">
+    <>
+      <Container fluid id="header-home" className="rOw betWeen">
         <h1>Title</h1>
         <Container className="top-nav-items">
           <Container className="icons-container">
@@ -21,7 +21,7 @@ const HomeHeader = () => {
           </Container>
         </Container>
       </Container>
-    </div>
+    </>
   );
 };
 

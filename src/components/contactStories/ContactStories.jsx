@@ -7,7 +7,7 @@ const ContactStories = () => {
     <Container
       fluid
       id="contact-stories-container"
-      className="fLex space-Evenly align-center"
+      className="rOw space-Evenly align-center"
     >
       <Container fluid className="story-container"></Container>
       <Container fluid className="story-container"></Container>
