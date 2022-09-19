@@ -1,26 +1,21 @@
-import "./homeHeader.scss";
+import "./profileHeader.scss";
 import React from "react";
 import { Container } from "react-bootstrap";
-import { BiMessageRounded, BiHeart } from "react-icons/bi";
+import { AiOutlineMenu } from "react-icons/ai";
 import { BsPlusSquare } from "react-icons/bs";
 import Navbar from "react-bootstrap/Navbar";
 
-const HomeHeader = () => {
-  //TODO Header Fixed au Scroll
-
+const ProfileHeader = () => {
   return (
     <>
-      <Navbar fixed="top" id="header-home" className="rOw betWeen">
-        <h1>Title</h1>
+      <Navbar fixed="top" id="header-profile" className="rOw betWeen">
+        <h1>Name</h1>
         <Container className="top-nav-items">
           <Container className="icons-container">
             <BsPlusSquare />
           </Container>
           <Container className="icons-container">
-            <BiHeart />
-          </Container>
-          <Container className="icons-container">
-            <BiMessageRounded />
+            <AiOutlineMenu />
           </Container>
         </Container>
       </Navbar>
@@ -28,4 +23,4 @@ const HomeHeader = () => {
   );
 };
 
-export default HomeHeader;
+export default ProfileHeader;

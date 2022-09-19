@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import ProfileHeader from "../../components/profileHeader/ProfileHeader";
 
 const ProfileScreen = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <>
+      <ProfileHeader />
+      <main>
+
+      </main>
+    </>
+  );
 };
 
 export default ProfileScreen;
