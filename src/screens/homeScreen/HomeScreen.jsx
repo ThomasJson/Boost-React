@@ -1,3 +1,4 @@
+import './homeScreen.scss'
 import React from "react";
 import ContactStories from "../../components/contactStories/ContactStories";
 import HomeHeader from "../../components/homeHeader/HomeHeader";
@@ -9,6 +10,8 @@ const HomeScreen = () => {
       <HomeHeader />
       <main>
         <ContactStories />
+        <Publication />
+        <Publication />
         <Publication />
       </main>
     </>
