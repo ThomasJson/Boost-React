@@ -6,7 +6,9 @@ const SearchScreen = () => {
   return (
     <>
       <SearchHeader />
-      <SearchByTag />
+      <main>
+        <SearchByTag />
+      </main>
     </>
   );
 };

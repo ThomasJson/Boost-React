@@ -13,7 +13,7 @@ const SearchHeader = () => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Profile Name ..."
+            placeholder="Profile Name . . . "
             className="me-2"
             aria-label="Search"
           />
