@@ -1,8 +1,8 @@
 import './homeScreen.scss'
 import React from "react";
-import ContactStories from "../../components/contactStories/ContactStories";
-import HomeHeader from "../../components/homeHeader/HomeHeader";
-import Publication from "../../components/publication/Publication";
+import ContactStories from "../../components/home/contactStories/ContactStories";
+import HomeHeader from "../../components/home/homeHeader/HomeHeader";
+import Publication from "../../components/home/publication/Publication";
 
 const HomeScreen = () => {
   return (

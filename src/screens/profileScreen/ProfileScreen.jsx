@@ -1,8 +1,8 @@
 import React from "react";
-import PostOverview from "../../components/postOverview/PostOverview";
-import ProfileHeader from "../../components/profileHeader/ProfileHeader";
-import ProfileInfo from "../../components/profileInfo/ProfileInfo";
-import RegisterStories from "../../components/registerStories/RegisterStories";
+import PostOverview from "../../components/profile/postOverview/PostOverview";
+import ProfileHeader from "../../components/profile/profileHeader/ProfileHeader";
+import ProfileInfo from "../../components/profile/profileInfo/ProfileInfo";
+import RegisterStories from "../../components/profile/registerStories/RegisterStories";
 
 const ProfileScreen = () => {
   return (

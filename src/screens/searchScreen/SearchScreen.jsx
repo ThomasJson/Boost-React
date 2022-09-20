@@ -1,6 +1,6 @@
 import React from "react";
-import SearchByTag from "../../components/searchByTag/SearchByTag";
-import SearchHeader from "../../components/searchHeader/SearchHeader";
+import SearchByTag from "../../components/search/searchByTag/SearchByTag";
+import SearchHeader from "../../components/search/searchHeader/SearchHeader";
 
 const SearchScreen = () => {
   return (
