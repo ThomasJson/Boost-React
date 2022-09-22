@@ -11,8 +11,6 @@ const HomeScreen = () => {
       <main>
         <ContactStories />
         <Publication />
-        <Publication />
-        <Publication />
       </main>
     </>
   );
