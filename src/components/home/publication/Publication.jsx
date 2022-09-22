@@ -8,7 +8,7 @@ import { BiMessageRounded, BiHeart, BiPaperPlane } from "react-icons/bi";
 const Publication = () => {
   return (
     <>
-      <Container className="">
+      <Container fluid className="">
         <Container fluid className="publication-bloc coL">
           {/* HEADER */}
           <Container
@@ -49,12 +49,12 @@ const Publication = () => {
             <Container className="count-sort">Likes / Vues</Container>
           </Container>
           {/* POST DESCRIPTION */}
-          <Container className="publication-description rOw">
+          <Container fluid className="publication-description rOw">
             <Container>Profile Name</Container>
             <Container className="description">blablabla ...</Container>
           </Container>
           {/* COMMENTAIRES */}
-          <Container className="publication-commentaires rOw align-center">
+          <Container fluid className="publication-commentaires rOw align-center">
             <Container fluid className="profile-icon w-auto">
               <RiUser3Line />
             </Container>
