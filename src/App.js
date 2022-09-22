@@ -15,7 +15,6 @@ const ProfileScreen = React.lazy(()=>
 )
 
 function App() {
-  // MAJ+alt+bottom-arrow: Duplicate line
 
   return (
     <BrowserRouter>
