@@ -14,6 +14,7 @@ const ProfileScreen = React.lazy(()=>
   import('./screens/profileScreen/ProfileScreen')
 )
 
+
 function App() {
 
   return (
